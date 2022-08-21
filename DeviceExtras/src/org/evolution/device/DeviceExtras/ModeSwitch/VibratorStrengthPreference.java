@@ -45,7 +45,7 @@ public class VibratorStrengthPreference extends CustomSeekBarPreference {
         mMinValue = mAllValues[1];
         mMaxValue = mAllValues[2];
         mDefaultValueExists = true;
-        mDefVal = mAllValues[0];
+        mDefVal = mAllValues[2];
         mDefaultValue = mDefVal;
         mValue = Integer.parseInt(loadValue(context));
 
